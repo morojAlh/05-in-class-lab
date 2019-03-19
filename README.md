@@ -261,6 +261,65 @@ At this point, if the students have successfully managed to work through each of
 
 >Note: Students/groups should continue using the same Hubot/API token they used for the above examples.
 
+
+<br>
+
+## Exercises
+
+#### 1. Reverse
+
+Create a command that will return the message reversed.
+
+
+
+#### 2. What should I eat for lunch?
+
+When I message `lunch` I should get a random food.
+
+![](https://i.imgur.com/Ik7kI5J.png)
+
+#### 3. Return a list of available Hubot commands
+
+When I message `list` I should get a list of available Hubot commands.
+
+![](https://i.imgur.com/FT6y58V.png)
+
+#### 4. Todo List
+
+When I message `todo buy food` Hubot adds the todo to my list and prints it out.
+
+![](https://i.imgur.com/WYRfVK4.png)
+
+
+
+#### 5. Currency Converter
+
+Convert USD to SAR and SAR to USD.
+
+![](https://i.imgur.com/gMy66fi.png)
+
+#### 6. Calculator
+
+Create one command that will add, subtract, divide or multiply two numbers.
+
+
+#### 7. Random Picture
+
+Create a command that will return a random picture URL from an array. 
+
+HINT: Create an array and call `res.random` on it.
+
+```js
+bot.hear(/rock/i, function(res) {
+  res.send(res.random(rock))
+})
+```
+
+![](https://i.imgur.com/r6NFMpB.png)
+
+
+<br />
+
 ---
 <a name="conclusion"></a>
 
