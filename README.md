@@ -6,7 +6,6 @@
 | 75 min | [Lab](#lab1) | Hubot: Independent Practice |
 | 135 min | [Lab](#lab2) | Hubot: Exercises |
 | 5 min | [Conclusion](#conclusion) | Final Questions & Exit Tickets |
-| 
 
 
 ### Objectives
