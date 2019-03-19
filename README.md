@@ -30,7 +30,7 @@
 <a name="opening"></a>
 ## Introduction (10 min)
 
-For our Unit 1 project, we'll be building our own chat bot in Slack. To help you become familiar with bots, we're going to use something called Hubot. Hubot is a framework for creating chat bots that you can use to create new bots for use in a variety of chat environments, including Slack. Using Hubot, you create bots (also often confusingly called Hubots) which follow scripts written in JavaScript to perform various tasks, from configuring new servers to updating code on GitHub. We will mostly be using Hubot in this project to interact with real users in Slack.
+Tonight we'll be building our own chat bot in Slack. To help you become familiar with bots, we're going to use something called Hubot. Hubot is a framework for creating chat bots that you can use to create new bots for use in a variety of chat environments, including Slack. Using Hubot, you create bots (also often confusingly called Hubots) which follow scripts written in JavaScript to perform various tasks, from configuring new servers to updating code on GitHub. We will mostly be using Hubot in this project to interact with real users in Slack.
 
 ### What Are We About to Do?
 
@@ -246,7 +246,11 @@ This should give you a sense of what a Hubot can do—and perhaps give you some 
 
 ## Exercises
 
-Pick one (or several) of these features to implement in your Slackbot. At the end of class, please git add, commit and git push your code to your repo. We will walk through how to submit a pull request.
+### Deliverables
+
+Pick one of the features below to implement in your Slackbot. After that you're free to build something of your own or pick another challenge below.
+
+At the end of class, please git add, commit and git push your code to your repo. We will walk through how to submit a pull request.
 
 #### 1. Reverse
 
