@@ -4,9 +4,9 @@
 | --- | --- | --- |
 | 10 min | [Opening](#opening) | Introduction |
 | 75 min | [Lab](#lab1) | Hubot: Independent Practice |
-| 90 min | [Lab](#lab2) | Hubot: Unit 1 Project |
+| 135 min | [Lab](#lab2) | Hubot: Exercises |
 | 5 min | [Conclusion](#conclusion) | Final Questions & Exit Tickets |
-| 45 min | [Bonus Labs](#bonus) | Currency Converters |
+| 
 
 
 ### Objectives
@@ -41,17 +41,9 @@ First, let's define some terms we'll be using during this lab.
 
 **Hubot:** [Hubot](https://hubot.github.com/) is a framework built by GitHub to speed up the process of developing bot users on a variety of platforms, including Slack. It's built using Node.js and CoffeeScript (see below), and it includes built-in functionality for performing common bot tasks (posting images, etc.). We'll be using Hubot to create the bot users we build.
 
-**CoffeeScript:** A variant of JavaScript, some people claim that CoffeeScript makes JavaScript more readable and faster to type. Because only JavaScript can run in browsers and in Node, CoffeeScript has to go through an extra step to be translated into JavaScript so that it can be run. CoffeeScript is often used in conjunction with Hubot; you won't need to know how to write CoffeeScript for the purposes of this class, but be aware that it will come up in Hubot examples and documentation. If you encounter a CoffeeScript file (e.g., the "example.coffee" file included with Hubot) and want to better understand what it's doing, you can use a CoffeeScript convertor like [JS2Coffee](http://js2.coffee/) to translate it into JavaScript.
-
-**Heroku:** Heroku is a platform for hosting and running apps in the cloud. We'll be using Heroku to host the code for our Hubot, so it can run independently of our machines.
-
-**Yeoman:** Yeoman is a set of tools that provides a scaffolding for getting web apps up and running quickly. We'll be using of a Yeoman tool called yo, which takes care of things like dependencies, build tasks, and configuration, so you don’t have to.
-
 ---
 <a name="lab1"></a>
-## Hubot: Independent Practice (75 mins)
-
-
+## Hubot: Independent Practice (135 mins)
 
 **Fork and Clone this Repo**
 
