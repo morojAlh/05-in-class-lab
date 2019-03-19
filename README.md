@@ -8,7 +8,6 @@
 | 5 min | [Conclusion](#conclusion) | Final Questions & Exit Tickets |
 | 45 min | [Bonus Labs](#bonus) | Currency Converters |
 
->Note: The following lesson is structured as a "lab lesson". After a brief introduction, the students will be spending most of the class working independently, first installing and configuring all of the necessary utilities to run Hubot, then working through various Hubot examples and finally, working on the Unit 1 Hubot project. **It is essential that during this session, the entire instructional team is on their feet, walking around the room, checking in with students, answering questions and helping troubleshoot.**
 
 ### Objectives
 
@@ -32,8 +31,6 @@
 <a name="opening"></a>
 ## Introduction (10 min)
 
->Note: The following lab is very challenging and will likely require a good deal of troubleshooting. **This can be a logistically complex exercise, so you should give it a try prior to class.**  
-
 For our Unit 1 project, we'll be building our own chat bot in Slack. To help you become familiar with bots, we're going to use something called Hubot. Hubot is a framework for creating chat bots that you can use to create new bots for use in a variety of chat environments, including Slack. Using Hubot, you create bots (also often confusingly called Hubots) which follow scripts written in JavaScript to perform various tasks, from configuring new servers to updating code on GitHub. We will mostly be using Hubot in this project to interact with real users in Slack.
 
 ### What Are We About to Do?
@@ -55,8 +52,6 @@ First, let's define some terms we'll be using during this lab.
 ## Hubot: Independent Practice (75 mins)
 
 
-### Installing and Configuring Everything
-
 
 **Fork and Clone this Repo**
 
@@ -65,7 +60,9 @@ First, let's define some terms we'll be using during this lab.
 - Run `npm install` on the command line
 - Open the folder in your text editor
 
-All of the starter code you need is inside `scripts/example.js`
+All of the starter code you need is inside `scripts/example.js`.
+
+**NOTE:** You will need to restart your server each time you make a change to the file. On a Mac, `CTRL + C` to stop your server.
 
 **Create a New Slack Workspace and generate a Hubot token**
 
@@ -83,7 +80,9 @@ From the `hubot-starter-code` folder, run:
 
 Now we have our very own Hubot that's willing and able to do our bidding. What can it do? Let’s take it for a test drive.
 
-### Interacting with Your Hubot
+<br>
+
+## Interacting with Your Hubot
 
 To create instructions for your Hubot, you need to add a JavaScript file to the `scripts` folder. You can add multiple scripts files to that folder and all will execute when the Hubot is run. Let's look at a few commands that will help us build our Hubot scripts.
 
