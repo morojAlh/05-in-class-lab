@@ -251,20 +251,11 @@ module.exports = function(robot) {
 
 This should give you a sense of what a Hubot can do—and perhaps give you some ideas for building your own Hubot...
 
->Note: Additional information on building and running Hubots is available in the [Unit 1 Project Prompt](../../projects/unit1/project-01.md)
-
----
-<a name="lab2"></a>
-## Hubot: Unit 1 Project (90 mins)
-
-At this point, if the students have successfully managed to work through each of the examples, they should now be ready to tackle the Unit 1 Project. Provide students with the [project prompt](../../projects/unit1/project-01.md) and have them work either independently or in groups to attempt to complete the project. If the students are able to complete the project before class is over, you can use the remaining time to have students present their work to the class. If there is still time left over, you can have students tackle the bonus exercises below. If, however, most of the students are unable to complete the project before the end of class, you can assign it as a take-home project that is due in 1-2 class periods.
-
->Note: Students/groups should continue using the same Hubot/API token they used for the above examples.
-
-
 <br>
 
 ## Exercises
+
+Pick one (or several) of these features to implement in your Slackbot. At the end of class, please git add, commit and git push your code to your repo. We will walk through how to submit a pull request.
 
 #### 1. Reverse
 
@@ -330,47 +321,4 @@ Make sure the lesson objectives have been met.
 * What did we install and why?
 * How does Hubot work?
 
----
-<a name="bonus"></a>
 
-# Bonus Content
-
-The following exercises are purely optional and provided as a bonus for instructors. If your class moves quickly or if advanced students are looking for an additional challenge, you may choose to use the exercises below.
-
-## Bitcoin: Currency Converter
-
-We have provided you with starter code for grabbing the latest bitcoin trading price. Open the [starter code](starter-code/currency-converter). Based on the U.S. Dollar amount a user inputs, we should print out the corresponding value in bitcoin based on the last trading price.
-
->Note: We haven't covered DOM Manipulation yet, but students will need to get some familiarity with [document.getElementById()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById) or [parseFloat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat)to complete this exercise. Be sure to let them know and/or provide a short intro.
-
-Before writing any code, be sure to write down the pseudocode for the exercise.
-
-**Sample Starter Pseudocode**
-
-```javascript
-
-* when convert button is clicked, run convert
-
-* function convert
-	store the inputted value into a variable
-	parse the inputted value
-	call `usdtoBTC` function and pass the user inputted value
-	display converted amount
-
- * function usdToBTC
-	 var convertedBTC = usd/BTCrate
-	 return convertedBTC
-
-```
-
-<br>
-
-##  Hubot Part 2: Bitcoin Convertor Bot
-
-  Build a Hubot that can convert a requested amount in $USD to its equivalent value in Bitcoin. You may use a constant, fixed price instead of the live rate of BTC price.
-
-  When the Hubot participant enters "convert $X to btc", the bot should return the value in bitcoin.
-
-  **Sample Hubot**
-
-  ![](https://i.imgur.com/0vtaWA4.png)
