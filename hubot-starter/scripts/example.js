@@ -21,7 +21,7 @@ module.exports = (bot) => {
   })
 
   bot.hear(/Hello!/, function(res) {
-    return res.send("Hi there!");
+    return res.send("Hi Moroj!");
   });
 
   bot.respond(/What's your favorite food?/, function(res) {
